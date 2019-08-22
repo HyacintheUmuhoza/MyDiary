@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #fff;
+   
+    }
+    
+    .logo{
+    height: 10%;
+    width:10%;
+    }
+    nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    nav li{
+    flex: 1 0 auto;
+    }
+    nav li a{
+    display:block;
+    padding:5px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color:#ffe4c4;
+    }
+    
+    nav{
+    background-color:rgba(55, 100, 44,0.5);
+    
+    }
+    .nav-menu{
+    flex-grow: 1;
+    }
+    nav li a:hover{
+    background-color: rgb(55, 100, 44);
+
+    }
+    .content{
+    
+    display:flex;
+    
+    }
