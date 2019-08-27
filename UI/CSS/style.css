@@ -4,45 +4,198 @@
 }
 
 body{
-    background-color: #fff;
-   
-    }
-    
-    .logo{
-    height: 10%;
-    width:10%;
-    }
-    nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    }
-    nav li{
-    flex: 1 0 auto;
-    }
-    nav li a{
-    display:block;
-    padding:5px;
-    font-size: 25px;
-    text-decoration: none;
-    text-align: center;
-    color:#ffe4c4;
-    }
-    
-    nav{
-    background-color:rgba(55, 100, 44,0.5);
-    
-    }
-    .nav-menu{
-    flex-grow: 1;
-    }
-    nav li a:hover{
-    background-color: rgb(55, 100, 44);
+    background: rgba(139, 145, 139,0.5);
+}
 
-    }
-    .content{
+/*  Navigation bar styling*/
+.header{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:start;
+align-items: center;
+
+background-color: rgb(204, 154, 38);
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 40px;
     
+}
+
+.logo{
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 0px;
+    flex:30 1 40px;
+    
+    
+  }
+  img{
+    height:10vh;
+    width:20vh;
+    align-self: start;
+    justify-self: start;
+
+  }
+
+.nav-menu{
     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    justify-content: end;
+    align-items: center;
     
-    }
+    
+}
+ a{
+    text-decoration: none;
+    padding:20px;
+    color: #fff;
+    font-size: 20px;
+   
+}
+
+
+
+
+/*  Content styling*/
+
+
+.content1{
+    background-image: url(/UI/Asset/img/back2.jpg);
+    width: 300vh;
+    height:80vh;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+   
+}
+
+
+
+h1{
+     padding-top: 300px;
+  margin-right: 500px;
+  color:rgba(20, 15, 4, 1);
+  font-size: 20px;
+}
+.subcontent p{
+    color:rgba(20, 15, 4, 1);
+    margin-right: 500px; 
+    font-size: 20px;
+}
+h2{
+    
+  margin-right: 620px;
+  font-size: 30px;
+  color: rgba(15, 14, 14,0.7);
+  margin-top: 0px;
+}
+
+.content0{
+    background-color:#fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    margin-top: 0px;
+    
+    
+}
+.content0 h2{
+    color: black;
+    margin-left: 500px;
+}
+.content0 h3{
+    color: black;
+}
+ .articles0{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+
+.diary{
+    height:30vh;
+    width: 20vw;
+}
+
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     justify-content: center;
+  height: 50vh;
+  
+ 
+ 
+     
+}
+.form{
+    margin-top: 20px;
+    flex: 0 1 30px;
+    height: 5vh;
+    width:  50vh;
+    border: solid saddlebrown;
+    flex: 1 1 200px;
+    
+}
+
+.formb{
+    margin-top: 10px;
+    flex: 0 1 30px;
+    height: 5vh;
+    width:  15vh;
+    background-color: rgb(114, 150, 138);
+}
+
+
+.content2{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    
+  
+
+}
+.content2 h2{
+    margin-left:600px;
+    margin-top: 0px;
+    
+
+}
+.articles{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+    text-align: justify;
+    color:rgba(15, 14, 14,0.7);
+    font-size: 20px;
+}
+.article{
+    flex: 1 1 300px;
+    padding:15px;
+    padding-left: 10px;
+}
+ul a{
+    padding:0px;
+    color: rgba(15, 14, 14,0.7);
+    text-align: center;
+}
+.footer{
+    padding-top: 60px;
+    font-size: 20px;
+    color: rgba(15, 14, 14,0.7);
+}
+
