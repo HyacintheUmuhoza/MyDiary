@@ -4,7 +4,7 @@
 }
 
 body{
-    background: rgba(139, 145, 139,0.5);
+    /* background: rgba(139, 145, 139,0.5); */ 
 }
 
 /*  Navigation bar styling*/
@@ -15,7 +15,7 @@ flex-wrap: wrap;
 justify-content:start;
 align-items: center;
 
-background-color: rgb(204, 154, 38);
+ background-color: rgba(11, 116, 151,1);
 flex-grow: 1;
 flex-shrink: 1;
 flex-basis: 40px;
@@ -26,7 +26,7 @@ flex-basis: 40px;
     align-self: flex-start;
     align-items: center;
     margin-left: 0px;
-    flex:30 1 40px;
+
     
     
   }
@@ -63,7 +63,10 @@ flex-basis: 40px;
 
 
 .content1{
-    background-image: url(/UI/Asset/img/back2.jpg);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    background-image: url(/UI/Asset/img/n1.jpeg);
     width: 300vh;
     height:80vh;
     margin-left: 0px;
@@ -71,19 +74,20 @@ flex-basis: 40px;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    flex: 1 1 200px;
    
 }
 
 
 
 h1{
-     padding-top: 300px;
+     padding-top: 150px;
   margin-right: 500px;
-  color:rgba(20, 15, 4, 1);
-  font-size: 20px;
+  color:rgb(2, 17, 6);
+  font-size: 50px;
 }
 .subcontent p{
-    color:rgba(20, 15, 4, 1);
+    color:rgb(4, 13, 20);
     margin-right: 500px; 
     font-size: 20px;
 }
@@ -99,10 +103,11 @@ h2{
     background-color:#fff;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    
     justify-content:center;
     text-align: center;
     margin-top: 0px;
+    flex: 1 1 200px;
     
     
 }
@@ -112,19 +117,28 @@ h2{
 }
 .content0 h3{
     color: black;
+    margin-top: 50px;
+    font-size: 20px;
 }
  .articles0{
     height: 50vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
-
+    flex: 1 1 200px;
 }
-
+.articles0 p{
+    width: 40vh;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: -40px;
+    
+    
+}
 .diary{
-    height:30vh;
-    width: 20vw;
+    height:20vh;
+    width: 5vw;
+    
 }
 
 
@@ -133,8 +147,9 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
      justify-content: center;
-  height: 50vh;
-  
+    height: 50vh;
+  margin-top: -50px;
+  margin-right: 50px;
  
  
      
@@ -159,43 +174,69 @@ h2{
 
 
 .content2{
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content:center;
     text-align: center;
+    background-color: rgba(10, 8, 8,0.6);
+    flex: 1 1 200px;
     
   
 
 }
 .content2 h2{
-    margin-left:600px;
+    margin-left:550px;
     margin-top: 0px;
+    color: #fff;
+    height: 5vh;
+    background-color: rgba(11, 116, 151,1);
     
 
 }
 .articles{
     display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: -30px;
+    margin-top: -30px;
     text-align: justify;
-    color:rgba(15, 14, 14,0.7);
-    font-size: 20px;
+    color:rgba(250, 242, 242, 1);
+    font-size: 15px;
+    align-items: center;
+  padding-left: 20px;
+  flex: 1 1 200px;
 }
 .article{
-    flex: 1 1 300px;
-    padding:15px;
-    padding-left: 10px;
+    flex: 1 1 200px;
+    justify-content: center;
+   align-items: center;
+  margin-left: 120px;
 }
+
+   
 ul a{
     padding:0px;
-    color: rgba(15, 14, 14,0.7);
-    text-align: center;
+    color: rgba(250, 242, 242, 1);
+    
+}
+.storya{
+    text-align: justify;
+ 
+}
+ 
+.storyb{
+    text-align: justify;
+}
+.storyc{
+    text-align: justify;
 }
 .footer{
-    padding-top: 60px;
+   
     font-size: 20px;
-    color: rgba(15, 14, 14,0.7);
+    color: rgba(250, 242, 242, 1);
+    background-color: rgba(10, 8, 8,0.6);
+    text-align: center;
+    padding-bottom: 20px;
 }
 
