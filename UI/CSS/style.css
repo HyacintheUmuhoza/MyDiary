@@ -63,7 +63,7 @@ flex-basis: 40px;
 
 
 .content1{
-    background-image: url(/UI/Asset/img/back2.jpg);
+    background-image: url(/UI/Asset/img/d2.jpg);
     width: 300vh;
     height:80vh;
     margin-left: 0px;
@@ -189,10 +189,10 @@ h2{
     padding-left: 10px;
 }
 ul a{
-    padding:0px;
+    padding-top:-10px;
     color: rgba(15, 14, 14,0.7);
     text-align: center;
-}
+    
 .footer{
     padding-top: 60px;
     font-size: 20px;
